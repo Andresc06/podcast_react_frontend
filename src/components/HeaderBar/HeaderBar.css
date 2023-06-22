@@ -1,20 +1,28 @@
 .Header {
-    position: relative;
+    position: fixed;
     z-index: 1;
+    margin-bottom: 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
 }
 
-.sm-list {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    overflow: hidden;
-    border-radius: 5px;
+#logo {
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.brand-header {
+    display: flex;
+    align-items: center;
+    color: #212F3C;
+    font-family: 'Roboto';
+    font-weight: 600;
 }
 
 #lnk-5 {
-    background-color: #90D274;
+    background-color: #178a00;
     border-radius: 5px;
     font-size: 18px;
     color: #FFF;
@@ -35,18 +43,52 @@
     padding: 1rem 2rem;
     margin: 1rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #000;
     text-align: center;
+    font-weight: 500;
+}
+
+.movil-lnk {
+    color: #FFF;
 }
 
 .link:hover {
     background-color: #000;
-    color: #fff;
-    font-weight: 500;
+    color: #FFF;
 }
 
-@media (max-width: 768px) {
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+@media (min-width: 1216px) {
+
+    .sm-list {
+        display: none;
+    }
+}
+
+@media (max-width: 1219px) {
+
+    .sm-list {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+        border-radius: 5px;
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #000;
+    }
 
     .dropdown, .links {
         display: none;
@@ -59,12 +101,4 @@
     .link {
         border-radius: 0
     }
-}
-
-.headerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    max-width: 100%;
-    height: 100%;
 }
