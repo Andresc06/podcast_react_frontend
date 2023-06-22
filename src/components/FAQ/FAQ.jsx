@@ -25,7 +25,9 @@ export function FAQ() {
                                 <Accordion.Control bg="white">
                                     <Text fw="bold"> {question.question} </Text>
                                 </Accordion.Control>
-                                <Accordion.Panel bg="#D9D9D9">{question.answer}</Accordion.Panel>
+                                <Accordion.Panel bg="#D9D9D9">
+                                    <Text p={10}> {question.answer} </Text>
+                                    </Accordion.Panel>
                             </Accordion.Item>
                         ))}
                     </Accordion>
