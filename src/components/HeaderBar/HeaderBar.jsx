@@ -2,20 +2,33 @@ import { Header, Container, Group, Burger, rem, Transition, Paper, Title } from 
 import { useDisclosure } from '@mantine/hooks';
 import './HeaderBar.css';
 import logo from '../../assets/images/microphone.png';
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
+
 
 export function HeaderBar() {
 
-  const HEADER_HEIGHT = rem(60);
+  // define "lord-icon" custom element with default properties
+  defineElement(lottie.loadAnimation);
 
+  const STYLE_ICONS = { width: '30px', height: '30px' }
+
+  const HEADER_HEIGHT = rem(60);
+  const HOME_ICON =  <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover" state="hover-1" style={STYLE_ICONS}></lord-icon>
+  const FAQ_ICON =  <lord-icon src="https://cdn.lordicon.com/enzmygww.json" trigger="hover" state="hover-2" style={STYLE_ICONS}></lord-icon>
+  const LISTEN_ICON =  <lord-icon src="https://cdn.lordicon.com/xddtsyvc.json" trigger="hover" state="hover" style={STYLE_ICONS}></lord-icon>
+  const PRICE_ICON =  <lord-icon src="https://cdn.lordicon.com/pmegrqxm.json" trigger="hover" style={STYLE_ICONS}></lord-icon>
+  const ABOUT_ICON =  <lord-icon src="https://cdn.lordicon.com/ycwlopoz.json" trigger="hover" style={STYLE_ICONS}></lord-icon>
+  const SIGN_ICON =  <lord-icon src="https://cdn.lordicon.com/egiwmiit.json" trigger="morph" colors="primary:#FFF" style={STYLE_ICONS}></lord-icon>
   // Lista de Links del Header
-  const links = ['Home', 'About', 'Categories', 'Pricing', 'FAQ', 'Sign Up'];
+  const links = [[HOME_ICON, 'Home'], [ABOUT_ICON, 'About'], [LISTEN_ICON, 'Listen Now'], [PRICE_ICON, 'Pricing'], [FAQ_ICON, 'FAQ'], [SIGN_ICON, 'Sign Up']];
 
   // Handler booleano propio del Mantine hook el cual cambia el estado de la variable
   const [opened, { toggle }] = useDisclosure(false);
 
   // Animacion de links al usarse en dispositivo movil
   const scaleY = {
-    in: { opacity: 0.9, transform: 'scaleY(1)' },
+    in: { opacity: 1, transform: 'scaleY(1)' },
     out: { opacity: 0.5, transform: 'scaleY(0)' },
     common: { transformOrigin: 'top' },
     transitionProperty: 'transform, opacity',
@@ -23,18 +36,12 @@ export function HeaderBar() {
 
   return (
     <Header height={HEADER_HEIGHT} mb={120} className='Header'>
-        <Title className='brand-header' fs='italic'><img src={logo} id='logo'/>Pod Planet</Title>
+        <Title className='brand-header'><img src={logo} id='logo'/>Pod Planet</Title>
       <Container className='headerContainer'>
         <Group spacing={5} className='links'>
           {links.map((link, idx) => (
-            <a
-            key={idx}
-            href={`#${link}`}
-            className='link'
-            id={`lnk-${idx}`}
-          > 
-            {link}
-          </a>))
+            <a href={`#${link[1]}`} key={idx} className='link' id={`lnk-${idx}`}>{link[0]}{link[1]}</a>
+          ))
           }
         </Group>
 
@@ -49,12 +56,12 @@ export function HeaderBar() {
               {links.map((link, idx) => (
                 <a
                 key={idx}
-                href={`#${link}`}
-                className='link movil-lnk'
+                href={`#${link[1]}`}
+                className='link'
                 id={`lnk-${idx}`}
                 onClick={toggle}
               >
-                {link}
+                {link[0]}{link[1]}
               </a>))
               }
             </Paper>
