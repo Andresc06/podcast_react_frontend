@@ -20,7 +20,7 @@ const reviews = [
     {
         id: 3,
         content: 'Recomiendo los servicios de podcast en Spotify a cualquier persona que quiera crear un podcast de alta calidad. El equipo de producción es muy talentoso y se asegura de que todo salga perfecto.',
-        author: 'Juan Perez',
+        author: 'Pedro Sanchez',
         company: 'SwiftCore',
         img: 'https://picsum.photos/id/15/300'
     },
