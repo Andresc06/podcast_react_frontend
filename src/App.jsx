@@ -1,4 +1,5 @@
 import './App.css'
+import { Footer } from './components/Footer/Footer'
 import { HeaderBar } from './components/HeaderBar/HeaderBar'
 import { Principal } from './components/Principal/Principal'
 
@@ -11,6 +12,7 @@ function App() {
       <h1 >
         Hi there!
       </h1>
+      <Footer />
     </>
   )
 }
