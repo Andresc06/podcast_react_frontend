@@ -19,7 +19,7 @@ export function Principal() {
                         gradient={{ from: 'teal', to: 'lime', deg: 105 }}
                     >
                         Pod Planet
-                    </Text><br />
+                    </Text><br /><br />
                     Amplify your <Text span variant="gradient" gradient={{ from: '#FFF', to: '#FFF' }} inherit>voice</Text> and captivate the world.
                     </Title>
 
