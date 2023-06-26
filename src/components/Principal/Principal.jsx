@@ -7,7 +7,7 @@ export function Principal() {
     const navigate = useNavigate();
 
     return (
-        <div className='principal'>
+        <div className='principal' id='Inicio'>
             <Container className='contain-principal' size="lg">
                 <div className='content-principal'>
                     <Title order={1} fs='italic' c='#FFF'>
