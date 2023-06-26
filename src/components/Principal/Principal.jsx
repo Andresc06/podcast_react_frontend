@@ -1,9 +1,10 @@
 import { Container, Title, Text, Button } from '@mantine/core';
 import './Principal.css';
 import principal from '../../assets/images/principal.webp'
+import { useNavigate } from 'react-router-dom';
 
 export function Principal() {
-
+    const navigate = useNavigate();
 
     return (
         <div className='principal'>
@@ -36,8 +37,9 @@ export function Principal() {
                     size="xl"
                     className='control'
                     mt={40}
+                    onClick={() => navigate('/solicitar-servicio')}
                     >
-                    Get started
+                        Get started
                     </Button>
                 </div>
                 <img className='img-container' src={principal} />

@@ -14,12 +14,14 @@
     "@mantine/core": "^6.0.13",
     "@mantine/dates": "^6.0.13",
     "@mantine/hooks": "^6.0.13",
+    "axios": "^1.4.0",
     "dayjs": "^1.11.8",
     "lord-icon-element": "^4.1.1",
     "lottie-web": "^5.12.2",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
