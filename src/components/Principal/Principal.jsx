@@ -20,15 +20,15 @@ export function Principal() {
                     >
                         Pod Planet
                     </Text><br /><br />
-                    Amplify your <Text span variant="gradient" gradient={{ from: '#FFF', to: '#FFF' }} inherit>voice</Text> and captivate the world.
+                    Amplifica tu <Text span variant="gradient" gradient={{ from: '#FFF', to: '#FFF' }} inherit>voz</Text> y cautiva el mundo.
                     </Title>
 
                     <Text className='description-principal' fs="italic" mt={30}>
-                    Unlocking a realm of possibilities, Pod Planet offers you a captivating 
-                    space to cultivate your audience and cultivate your podcasting dreams into 
-                    a thriving reality. Whether you are an established podcaster looking to expand 
-                    your reach or a budding creator eager to make your mark, we have got your back 
-                    every step of the way.
+                    Al desbloquear un reino de posibilidades, Pod Planet le ofrece una cautivadora
+                    espacio para cultivar su audiencia y cultivar sus sueños de podcasting en
+                    una realidad próspera. Si eres un podcaster establecido que busca expandirse
+                    su alcance o un creador en ciernes ansioso por dejar su huella, lo respaldamos
+                    cada paso del camino.
                     </Text>
 
                     <Button
