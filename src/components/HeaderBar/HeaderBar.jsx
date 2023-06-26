@@ -21,7 +21,7 @@ export function HeaderBar() {
   const ABOUT_ICON =  <lord-icon src="https://cdn.lordicon.com/ycwlopoz.json" trigger="hover" style={STYLE_ICONS}></lord-icon>
   const SIGN_ICON =  <lord-icon src="https://cdn.lordicon.com/egiwmiit.json" trigger="morph" colors="primary:#FFF" style={STYLE_ICONS}></lord-icon>
   // Lista de Links del Header
-  const links = [[HOME_ICON, 'Home'], [ABOUT_ICON, 'About'], [LISTEN_ICON, 'Listen Now'], [PRICE_ICON, 'Pricing'], [FAQ_ICON, 'FAQ'], [SIGN_ICON, 'Sign Up']];
+  const links = [[HOME_ICON, 'Home'], [ABOUT_ICON, 'Servicios'], [LISTEN_ICON, 'Listen Now'], [PRICE_ICON, 'Precios'], [FAQ_ICON, 'FAQ'], [SIGN_ICON, 'Iniciar']];
 
   // Handler booleano propio del Mantine hook el cual cambia el estado de la variable
   const [opened, { toggle }] = useDisclosure(false);
