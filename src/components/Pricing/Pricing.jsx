@@ -33,7 +33,7 @@ export function Pricing() {
   ));
 
   return (
-    <div className="Pricing">
+    <div className="Pricing" id="Precios">
     <Title mb={10} fz={'3rem'} m={20} ta={'center'} c={'#FFF'} fs={'italic'}>Planes y Precios</Title>
     <Container className="cards-group" mt={20}>
     <Card className='plan-card'>

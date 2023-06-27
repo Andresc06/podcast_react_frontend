@@ -7,7 +7,7 @@ import FEAT_3 from '../../assets/images/podcaster.jpg';
 export function About() {
 
     return (
-        <div className="About">
+        <div className="About" id="Servicios">
             <article className="feature" id="feat-1">
                 <div className="feat-img">
                     <img src={FEAT_1} alt="Chica en su oficina sonriendo a la camara" />

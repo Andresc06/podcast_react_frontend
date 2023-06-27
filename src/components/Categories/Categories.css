@@ -1,6 +1,24 @@
 .Categories {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 3rem;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border-top: 5px solid #000;
+    color: #FFF;
+}
+
+.category {
+    background: #FFF;
+    color: #000;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    height: 100%;
+    border: 5px solid #ffffff;
+    box-shadow: -8px -8px 0px;
+    transition: box-shadow 0.25s;
+}
+
+@media (max-width: 768px) {
+    .Categories {
+        padding: 1rem;
+    }
 }
