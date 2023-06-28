@@ -1,14 +1,30 @@
 import './App.css'
 
-function App() {
 
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Home } from './pages/Home';
+import { ServiceRequest } from './pages/ServiceRequest';
+import { Thanks } from './pages/Thanks';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/solicitar-servicio",
+    element: <ServiceRequest />,
+  },
+  {
+    path: "/gracias",
+    element: <Thanks />,
+  },
+]);
+
+function App() {
   return (
-    <>
-      <h1 >
-        Hi there!
-      </h1>
-    </>
+    <RouterProvider router={router} />
   )
 }
 
-export default App
+export default App;

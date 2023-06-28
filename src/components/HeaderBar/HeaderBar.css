@@ -1,0 +1,99 @@
+.Header {
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 45px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.brand-header {
+    display: flex;
+    align-items: center;
+    letter-spacing: -3px;
+    font-family: 'Vast Shadow', cursive;
+    font-weight: 400;
+}
+
+#lnk-5 {
+    background-color: #2E4053;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #FFF;
+}
+
+.burger {
+    display: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+}
+
+.link:hover {
+    background: linear-gradient(0deg, rgba(34,195,71,1) 0%, rgba(34,176,105,1) 100%);
+    color: #FFF;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+@media (min-width: 1345px) {
+
+    .sm-list {
+        display: none;
+    }
+}
+
+@media (max-width: 1345px) {
+
+    .sm-list {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+        border-radius: 5px;
+        border: solid #000 3px;
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dropdown, .links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .link {
+        border-radius: 0
+    }
+}
