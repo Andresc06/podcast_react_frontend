@@ -1,6 +1,8 @@
 import { Container, Grid, Image, SimpleGrid, Text, Title } from '@mantine/core';
 import './Categories.css';
 import PODCAST_3 from '../../assets/images/podcast-3.png';
+import { SpotifyLogin } from '../SpotifyLogin/SpotifyLogin';
+import { SpotifyPlalists } from '../SpotifyPlaylists/SpotifyPlaylists';
 
 const PRIMARY_COL_HEIGHT = '600px';
 
@@ -10,7 +12,9 @@ export function Categories() {
     return (
         <>
         <div className='Categories'>
-        <Title mb={50} fz={'3rem'} ta={'center'} fs={'italic'}>Categories</Title>
+        {/* <Title mb={50} fz={'3rem'} ta={'center'} fs={'italic'}>Categories</Title> */}
+        <SpotifyLogin />
+        <SpotifyPlalists />
         <Container my="md">
         <SimpleGrid cols={2} spacing="lg" breakpoints={[{ maxWidth: 'md', cols: 1 }]}>
             <div height={PRIMARY_COL_HEIGHT} className='category'>
