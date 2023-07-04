@@ -17,6 +17,11 @@
     transition: box-shadow 0.25s;
 }
 
+.category:hover {
+    box-shadow: none;
+    transition: box-shadow 0.25s;
+}
+
 @media (max-width: 768px) {
     .Categories {
         padding: 1rem;

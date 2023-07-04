@@ -1,6 +1,6 @@
 import { Container, Grid, Image, SimpleGrid, Text, Title } from '@mantine/core';
 import './Categories.css';
-import PODCAST_3 from '../../assets/images/podcast-3.png';
+import PODCAST_3 from '../../assets/images/podcast-3.webp';
 import { SpotifyLogin } from '../SpotifyLogin/SpotifyLogin';
 import { SpotifyPlalists } from '../SpotifyPlaylists/SpotifyPlaylists';
 
@@ -11,7 +11,7 @@ export function Categories() {
 
     return (
         <>
-        <div className='Categories'>
+        <div className='Categories' id='Listen%20Now'>
         {/* <Title mb={50} fz={'3rem'} ta={'center'} fs={'italic'}>Categories</Title> */}
         <SpotifyLogin />
         <SpotifyPlalists />
