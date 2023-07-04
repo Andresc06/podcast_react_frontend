@@ -28,10 +28,10 @@ npm run dev
 
 ## 💾 Dependencias y Librerias
 - [Mantine](https://ui.mantine.dev/)
-- [Axios React](https://www.npmjs.com/package/react-axios)
 - [Dayjs](https://www.npmjs.com/package/dayjs)
 - [Lord Icon Element](https://www.npmjs.com/package/lord-icon-element)
 - [React Router Dom](https://reactrouter.com/en/main)
+- [Tabler Icons React](https://www.npmjs.com/package/tabler-icons-react)
 
 
 ## 📢 Contribuciones
