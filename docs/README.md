@@ -33,6 +33,16 @@ npm run dev
 - [React Router Dom](https://reactrouter.com/en/main)
 - [Tabler Icons React](https://www.npmjs.com/package/tabler-icons-react)
 
+### Screenshoots
+
+<h4>Inicio</h4>
+<img src="./src/assets/readme-imgs/home.png" width='600px'/>
+<h4>Formulario para Servicios</h4>
+<img src="./src/assets/readme-imgs/form.png" width='600px'/>
+<h4>Lista de Podcasts</h4>
+
+<h4>Precios y Planes</h4>
+<img src="./src/assets/readme-imgs/precios.png" width='600px'/>
 
 ## 📢 Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir un issue o enviar un pull request. Ademas recuerda leer la carpeta docs/ el cual contiene toda la informacion sobre las contribuciones ademas de el template al momento de hacer un pull request
