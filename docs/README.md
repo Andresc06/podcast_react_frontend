@@ -36,13 +36,13 @@ npm run dev
 ### Screenshoots
 
 <h4>Inicio</h4>
-<img src="./src/assets/readme-imgs/home.png" width='600px'/>
+<img src="../src/assets/readme-imgs/home.png" width='800px'/>
 <h4>Formulario para Servicios</h4>
-<img src="./src/assets/readme-imgs/form.png" width='600px'/>
+<img src="../src/assets/readme-imgs/form.png" width='800px'/>
 <h4>Lista de Podcasts</h4>
 
 <h4>Precios y Planes</h4>
-<img src="./src/assets/readme-imgs/precios.png" width='600px'/>
+<img src="../src/assets/readme-imgs/precios.png" width='800px'/>
 
 ## 📢 Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir un issue o enviar un pull request. Ademas recuerda leer la carpeta docs/ el cual contiene toda la informacion sobre las contribuciones ademas de el template al momento de hacer un pull request
