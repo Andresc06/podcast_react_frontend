@@ -1,87 +1,87 @@
-# Policy brief & purpose
+# Resumen de política y propósito
 
-Our Employee Code of Conduct company policy outlines our expectations regarding employees’ behavior towards their colleagues, supervisors and overall organization.
+La política de nuestra empresa Código de conducta del empleado describe nuestras expectativas con respecto al comportamiento de los empleados hacia sus colegas, supervisores y la organización en general.
 
-We promote freedom of expression and open communication. But we expect all employees to follow our code of conduct. They should avoid offending, participating in serious disputes and disrupting our workplace. We also expect them to foster a well-organized, respectful and collaborative environment.
+Promovemos la libertad de expresión y la comunicación abierta. Pero esperamos que todos los empleados sigan nuestro código de conducta. Deben evitar ofender, participar en disputas graves e interrumpir nuestro lugar de trabajo. También esperamos que fomenten un entorno bien organizado, respetuoso y colaborativo.
 
-# Scope
+# Alcance
 
-This policy applies to all our employees regardless of employment agreement or rank.
+Esta política se aplica a todos nuestros empleados independientemente del contrato de trabajo o rango.
 
-# Policy elements
+# Elementos de política
 
-## What are the components of an Employee Code of Conduct Policy?
+## ¿Cuáles son los componentes de una Política de Código de Conducta del Empleado?
 
-Company employees are bound by their contract to follow our Employee Code of Conduct while performing their duties. We outline the components of our Code of Conduct below:
+Los empleados de la empresa están obligados por contrato a seguir nuestro Código de conducta del empleado mientras desempeñan sus funciones. A continuación detallamos los componentes de nuestro Código de Conducta:
 
-### Compliance with law
+### Cumplimiento de la ley
 
-All employees must protect our company’s legality. They should comply with all environmental, safety and fair dealing laws. We expect employees to be ethical and responsible when dealing with our company’s finances, products, partnerships and public image.
+Todos los empleados deben proteger la legalidad de nuestra empresa. Deben cumplir con todas las leyes ambientales, de seguridad y de trato justo. Esperamos que los empleados sean éticos y responsables al tratar con las finanzas, los productos, las asociaciones y la imagen pública de nuestra empresa.
 
-### Respect in the workplace
+### Respeto en el lugar de trabajo
 
-All employees should respect their colleagues. We won’t allow any kind of discriminatory behavior, harassment or victimization. Employees should conform with our equal opportunity policy in all aspects of their work, from recruitment and performance evaluation to interpersonal relations.
+Todos los empleados deben respetar a sus compañeros. No permitiremos ningún tipo de comportamiento discriminatorio, acoso o victimización. Los empleados deben cumplir con nuestra política de igualdad de oportunidades en todos los aspectos de su trabajo, desde la contratación y la evaluación del desempeño hasta las relaciones interpersonales.
 
-### Protection of Company Property
+### Protección de la propiedad de la empresa
 
-All employees should treat our company’s property, whether material or intangible, with respect and care.
+Todos los empleados deben tratar la propiedad de nuestra empresa, ya sea material o intangible, con respeto y cuidado.
 
-Employees:
+Empleados:
 
-- Shouldn’t misuse company equipment or use it frivolously.
-- Should respect all kinds of incorporeal property. This includes trademarks, copyright and other property (information, reports etc.) Employees should use them only to complete their job duties.
-  Employees should protect company facilities and other material property (e.g. company cars) from damage and vandalism, whenever possible.
+- No debe hacer mal uso de los equipos de la empresa ni usarlos con frivolidad.
+- Deben respetar toda clase de bienes incorporales. Esto incluye marcas registradas, derechos de autor y otra propiedad (información, informes, etc.) Los empleados deben usarlos solo para completar sus funciones laborales.
+   Los empleados deben proteger las instalaciones de la empresa y otros bienes materiales (p. ej., automóviles de la empresa) contra daños y vandalismo, siempre que sea posible.
 
-### Professionalism
+### Profesionalidad
 
-All employees must show integrity and professionalism in the workplace:
+Todos los empleados deben mostrar integridad y profesionalismo en el lugar de trabajo:
 
-#### Personal appearance
+#### Apariencia personal
 
-All employees must follow our dress code and personal appearance guidelines.
+Todos los empleados deben seguir nuestro código de vestimenta y pautas de apariencia personal.
 
-#### Corruption
+#### Corrupción
 
-We discourage employees from accepting gifts from clients or partners. We prohibit briberies for the benefit of any external or internal party.
+Desaconsejamos a los empleados que acepten obsequios de clientes o socios. Prohibimos los sobornos en beneficio de cualquier parte externa o interna.
 
-#### Job duties and authority
+#### Deberes laborales y autoridad
 
-All employees should fulfill their job duties with integrity and respect toward customers, stakeholders and the community. Supervisors and managers mustn’t abuse their authority. We expect them to delegate duties to their team members taking into account their competences and workload. Likewise, we expect team members to follow team leaders’ instructions and complete their duties with skill and in a timely manner.
+Todos los empleados deben cumplir con sus deberes laborales con integridad y respeto hacia los clientes, las partes interesadas y la comunidad. Los supervisores y gerentes no deben abusar de su autoridad. Esperamos que deleguen funciones en los miembros de su equipo teniendo en cuenta sus competencias y carga de trabajo. Asimismo, esperamos que los miembros del equipo sigan las instrucciones de los líderes del equipo y completen sus funciones con habilidad y de manera oportuna.
 
-We encourage mentoring throughout our company.
+Fomentamos la tutoría en toda nuestra empresa.
 
-#### Absenteeism and tardiness
+#### Ausentismo y tardanzas
 
-Employees should follow their schedules. We can make exceptions for occasions that prevent employees from following standard working hours or days. But, generally, we expect employees to be punctual when coming to and leaving from work.
+Los empleados deben seguir sus horarios. Podemos hacer excepciones para ocasiones que impidan que los empleados sigan las horas o días de trabajo estándar. Pero, en general, esperamos que los empleados sean puntuales al entrar y salir del trabajo.
 
-#### Conflict of interest
+#### Conflicto de intereses
 
-We expect employees to avoid any personal, financial or other interests that might hinder their capability or willingness to perform their job duties.
+Esperamos que los empleados eviten cualquier interés personal, financiero o de otro tipo que pueda obstaculizar su capacidad o disposición para realizar sus funciones laborales.
 
-#### Collaboration
+#### Colaboración
 
-Employees should be friendly and collaborative. They should try not to disrupt the workplace or present obstacles to their colleagues’ work.
+Los empleados deben ser amigables y colaborativos. Deben tratar de no interrumpir el lugar de trabajo ni presentar obstáculos para el trabajo de sus colegas.
 
-#### Communication
+#### Comunicación
 
-All employees must be open for communication with their colleagues, supervisors or team members.
+Todos los empleados deben estar abiertos a la comunicación con sus colegas, supervisores o miembros del equipo.
 
-#### Benefits
+#### Beneficios
 
-We expect employees to not abuse their employment benefits. This can refer to time off, insurance, facilities, subscriptions or other benefits our company offers.
+Esperamos que los empleados no abusen de sus beneficios laborales. Esto puede referirse a tiempo libre, seguro, instalaciones, suscripciones u otros beneficios que ofrece nuestra empresa.
 
-#### Policies
+#### Políticas
 
-All employees should read and follow our company policies. If they have any questions, they should ask their managers or Human Resources (HR) department.
+Todos los empleados deben leer y seguir las políticas de nuestra empresa. Si tienen alguna pregunta, deben preguntar a sus gerentes o al departamento de Recursos Humanos (HR).
 
-# Disciplinary actions
+# Acciones disciplinarias
 
-Our company may have to take disciplinary action against employees who repeatedly or intentionally fail to follow our code of conduct. Disciplinary actions will vary depending on the violation.
+Es posible que nuestra empresa deba tomar medidas disciplinarias contra los empleados que incumplan reiterada o intencionalmente nuestro código de conducta. Las acciones disciplinarias variarán según la infracción.
 
-Possible consequences include:
+Las posibles consecuencias incluyen:
 
-- Demotion.
-- Reprimand.
-- Suspension or termination for more serious offenses.
-- Detraction of benefits for a definite or indefinite time.
-- We may take legal action in cases of corruption, theft, embezzlement or other unlawful behavior.
+- Degradación.
+- Reprimenda.
+- Suspensión o terminación por faltas más graves.
+- Detracción de beneficios por tiempo determinado o indefinido.
+- Podemos emprender acciones legales en casos de corrupción, robo, malversación de fondos u otros comportamientos ilegales.

@@ -39,7 +39,7 @@ export function Principal() {
                     mt={40}
                     onClick={() => navigate('/solicitar-servicio')}
                     >
-                        Get started
+                        Empieza ahora
                     </Button>
                 </div>
                 <img className='img-container' src={principal} />

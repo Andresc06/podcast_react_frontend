@@ -21,12 +21,12 @@
     font-weight: 400;
 }
 
-#lnk-5 {
+.lnk-5 {
     background-color: #2E4053;
     border-radius: 8px;
     font-size: 22px;
     font-weight: lighter;
-    color: #FFF;
+    color: #FFF !important;
 }
 
 .burger {

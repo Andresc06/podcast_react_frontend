@@ -1,11 +1,11 @@
-# Tecnology
+# Tecnologia
 
 - [ ] Javascript
 - [ ] HTML
 - [ ] CSS
 - [ ] Markdown
 
-# Select the type
+# Selecciona un tipo
 
 - [ ] Feature
 - [ ] Hotfix
