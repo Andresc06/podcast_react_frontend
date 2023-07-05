@@ -1,5 +1,7 @@
 import axios from 'axios'
 
+const SPOTIFY_API_BASE_URL = 'https://api.spotify.com';
+
 async function registerUser(form) {
     const API_URL = import.meta.env.VITE_BACKEND_URL;
     try {
@@ -11,16 +13,17 @@ async function registerUser(form) {
     }
 }
 
-async function getSpotifyShows(token) {
+async function getSpotifyEpisodes(token) {
+    const spotifyShowId = import.meta.env.VITE_SPOTIFY_SHOW_ID;
     try {
         const headers = { Authorization: `Bearer ${token}` }
-        const spotifyEndpoint = 'https://api.spotify.com/v1/me/shows';
+        const spotifyEndpoint = `${SPOTIFY_API_BASE_URL}/v1/shows/${spotifyShowId}/episodes`;
         const response = await axios.get(spotifyEndpoint, { headers })
-        if (response.data.items.length === 0) {
-            return null
+        if(response.status === 200) {
+            return response.data.items;
+        } else {
+            throw new Error("Error fetching spotify api")
         }
-        const show = response.data.items[0].show;
-        return show;
     } catch (error) {
         console.log(error)
     }
@@ -29,7 +32,7 @@ async function getSpotifyShows(token) {
 async function getSpotifyUser(token) {
     try {
         const headers = { Authorization: `Bearer ${token}` }
-        const spotifyEndpoint = 'https://api.spotify.com/v1/me';
+        const spotifyEndpoint = `${SPOTIFY_API_BASE_URL}/v1/me`;
         const response = await axios.get(spotifyEndpoint, { headers })
         if (response.status === 200) {
             return response.data
@@ -40,4 +43,4 @@ async function getSpotifyUser(token) {
     }
 }
 
-export { registerUser, getSpotifyShows, getSpotifyUser }
+export { registerUser, getSpotifyUser, getSpotifyEpisodes }
