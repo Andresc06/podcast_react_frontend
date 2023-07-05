@@ -51,7 +51,7 @@ export function Categories() {
 function EpisodeCard({ episode }) {
   const SECONDARY_COL_HEIGHT = `calc(${PRIMARY_COL_HEIGHT} / 2 - 2rem / 2)`;
   return (
-    <Grid.Col span={4}>
+    <Grid.Col sm={6} md={4}>
       <a
         href={episode.external_urls.spotify}
         style={{ textDecoration: "none" }}
