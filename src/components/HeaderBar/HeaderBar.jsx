@@ -7,17 +7,16 @@ import { defineElement } from 'lord-icon-element';
 import { useSpotifyStore } from '../../store/spotifyStore';
 import { getSpotifyLoginUrl } from '../../utils/utils';
 
-
 export function HeaderBar() {
   const spotifyUser = useSpotifyStore((state) => state.spotifyUser);
+  const logoutSpotifyUser = useSpotifyStore((state) => state.logoutSpotifyUser);
 
   function handleLogin() {
     window.location.href = getSpotifyLoginUrl();
   }
 
   function handleLogout() {
-    localStorage.clear()
-    window.location.href = 'https://accounts.spotify.com/logout'
+    logoutSpotifyUser()
   }
 
   // define "lord-icon" custom element with default properties
@@ -31,7 +30,7 @@ export function HeaderBar() {
   const LISTEN_ICON =  <lord-icon src="https://cdn.lordicon.com/xddtsyvc.json" trigger="hover" state="hover" style={STYLE_ICONS}></lord-icon>
   const PRICE_ICON =  <lord-icon src="https://cdn.lordicon.com/pmegrqxm.json" trigger="hover" style={STYLE_ICONS}></lord-icon>
   const ABOUT_ICON =  <lord-icon src="https://cdn.lordicon.com/ycwlopoz.json" trigger="hover" style={STYLE_ICONS}></lord-icon>
-  // const SIGN_ICON =  <lord-icon src="https://cdn.lordicon.com/egiwmiit.json" trigger="morph" colors="primary:#FFF" style={STYLE_ICONS}></lord-icon>
+  const SIGN_ICON =  <lord-icon src="https://cdn.lordicon.com/egiwmiit.json" trigger="morph" colors="primary:#FFF" style={STYLE_ICONS}></lord-icon>
   // Lista de Links del Header
   const links = [[HOME_ICON, 'Inicio'], [ABOUT_ICON, 'Servicios'], [LISTEN_ICON, 'Listen Now'], [PRICE_ICON, 'Precios'], [FAQ_ICON, 'FAQ']];
   //  [SIGN_ICON, 'Iniciar']];
@@ -57,8 +56,8 @@ export function HeaderBar() {
           ))
           }
           {spotifyUser ?
-            <button style={{border: 'none', cursor: "pointer"}} onClick={handleLogout} className='link'>Salir</button>:
-            <button style={{border: 'none', cursor: "pointer"}} onClick={handleLogin} className='link'>Entrar</button>
+            <button style={{border: 'none', cursor: "pointer"}} onClick={handleLogout} className='link lnk-5'>{SIGN_ICON}Salir</button>:
+            <button style={{border: 'none', cursor: "pointer"}} onClick={handleLogin} className='link lnk-5'>{SIGN_ICON}Entrar</button>
           }
         </Group>
 

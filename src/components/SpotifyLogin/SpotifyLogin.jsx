@@ -1,7 +1,10 @@
 import { Button, Center, Container, Title } from "@mantine/core";
 import { useEffect } from "react";
 import { IconBrandSpotify } from "@tabler/icons-react";
-import { getReturnedParamsFromSpotifyAuth, getSpotifyLoginUrl } from "../../utils/utils";
+import {
+  getReturnedParamsFromSpotifyAuth,
+  getSpotifyLoginUrl,
+} from "../../utils/utils";
 import { useSpotifyStore } from "../../store/spotifyStore";
 import { useNavigate } from "react-router-dom";
 
@@ -26,12 +29,15 @@ export function SpotifyLogin() {
   return (
     <>
       <Container my={20}>
+        <Center mb={50}>
+          <Title>Escucha nuestro podcast</Title>
+        </Center>
         <Center mb={10}>
-          {spotifyStore.spotifyToken ? <Title>Podcasts</Title> :
+          {!spotifyStore.spotifyToken && (
             <Button leftIcon={<IconBrandSpotify />} onClick={handleLogin}>
               Login with spotify
             </Button>
-          }
+          )}
         </Center>
       </Container>
     </>

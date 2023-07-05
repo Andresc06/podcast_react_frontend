@@ -13,7 +13,7 @@ export function FAQ() {
     const isMobile = useMediaQuery('(max-width: 768px)');
 
     return (
-        <Box bg='#2B3C3F' py={80} id="FAQ">
+        <Box bg='#2B3C3F' py={80} id="FAQ" style={{ borderTop: '5px solid #000'}}>
             <Container>
                 <Center mb={40}>
                     <Title order={isMobile ? 2 : 1} color="white">Preguntas frecuentes</Title>

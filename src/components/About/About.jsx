@@ -1,7 +1,7 @@
 import { Text, Title } from "@mantine/core";
 import "./About.css";
-import FEAT_1 from '../../assets/images/doing-podcast.png';
-import FEAT_2 from '../../assets/images/listening-podcast.png';
+import FEAT_1 from '../../assets/images/doing-podcast.webp';
+import FEAT_2 from '../../assets/images/listening-podcast.webp';
 import FEAT_3 from '../../assets/images/podcaster.jpg';
 
 export function About() {
