@@ -4,6 +4,7 @@ import './RequestForm.css'
 import { useState } from "react";
 import { registerUser } from "../../services/services";
 import { useNavigate } from "react-router-dom";
+import { notifications } from '@mantine/notifications';
 
 export function RequestForm() {
     const isMobile = useMediaQuery('(max-width: 768px)');
@@ -23,9 +24,15 @@ export function RequestForm() {
                 setForm({ name: '', email: '', phone: '', description: '' })
                 navigate('/gracias')
             }
-            setLoading(false);
         }).catch(err => {
             console.log(err)
+            notifications.show({
+                title: "Ha ocurrido un error",
+                message: "Revisa los campos requeridos",
+                color: 'red'
+            })
+        }).finally(() => {
+            setLoading(false)
         })
     }
 
