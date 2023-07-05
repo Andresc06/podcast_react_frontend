@@ -7,17 +7,16 @@ import { defineElement } from 'lord-icon-element';
 import { useSpotifyStore } from '../../store/spotifyStore';
 import { getSpotifyLoginUrl } from '../../utils/utils';
 
-
 export function HeaderBar() {
   const spotifyUser = useSpotifyStore((state) => state.spotifyUser);
+  const logoutSpotifyUser = useSpotifyStore((state) => state.logoutSpotifyUser);
 
   function handleLogin() {
     window.location.href = getSpotifyLoginUrl();
   }
 
   function handleLogout() {
-    localStorage.clear()
-    window.location.href = 'https://accounts.spotify.com/logout'
+    logoutSpotifyUser()
   }
 
   // define "lord-icon" custom element with default properties

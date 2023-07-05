@@ -18,6 +18,10 @@ const useSpotifyStore = create(() => ({
         } catch (error) {
             console.log(error)
         }
+    },
+    logoutSpotifyUser: async() => {
+        window.localStorage.clear()
+        useSpotifyStore.setState({ spotifyToken: null, spotifyUser: null });
     }
 
 }))
