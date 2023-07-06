@@ -40,7 +40,7 @@ npm run dev
 <h4>Formulario para Servicios</h4>
 <img src="../src/assets/readme-imgs/form.png" width='800px'/>
 <h4>Lista de Podcasts</h4>
-
+<img src="../src/assets/readme-imgs/playlists.png" width='800px'/>
 <h4>Precios y Planes</h4>
 <img src="../src/assets/readme-imgs/precios.png" width='800px'/>
 
